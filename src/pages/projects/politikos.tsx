@@ -7,7 +7,7 @@ import SEO from "../../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Politikos" />
     <Container>
       <ContainerMiddle>
         <h1>Politikos</h1>

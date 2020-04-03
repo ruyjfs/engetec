@@ -7,7 +7,7 @@ import SEO from "../../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Religare" />
     <Container>
       <ContainerMiddle>
         <h1>Religare</h1>
