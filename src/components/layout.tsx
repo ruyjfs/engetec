@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
             margin: `0 auto`,
             maxWidth: 960,
             // zIndex: -1,
-            // minHeight: "100vh",
+            minHeight: "100vh",
             // padding: `0 1.0875rem 1.45rem`,
             // position: "absolute",
           }}
