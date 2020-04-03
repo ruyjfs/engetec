@@ -47,10 +47,15 @@ export default () => (
         <ContainerMiddle>
           <Title className="App-logo-text">Ruyjfs</Title>
           {/* <Logo src={logo} className="App-logo" alt="logo" /> */}
-          <Button to="/page-2/">Saber mais</Button>
-          <Button to="/page-3">Go to page 3</Button>
-          <Button to="/teste/page-1">aaa</Button>
+
+          <Button to="/projects/religare">Religare</Button>
+          <Button to="/projects/politikos">Politikos</Button>
         </ContainerMiddle>
+        <Footer>
+          © {new Date().getFullYear()} ruyjfs.com | ruyferreira.com |
+          ruyjunior.com
+        </Footer>
+        {/* <Footer>Feito com ❤️ por @ruyjfs</Footer> */}
         {/* <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>
@@ -76,15 +81,23 @@ const Button = styled(Link)`
 const Container = styled.div`
   overflow: hidden;
   flex: 1;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: flex-end; */
   align-items: center;
   min-height: 100vh;
   display: flex;
+  /* background-color: #00000030; */
 `
+
 const ContainerMiddle = styled.div`
+  justify-content: flex-end;
   top: 30%;
   position: absolute;
+  /* background-color: #00000040; */
+  flex: 1;
+  /* width: 100%; */
 `
+
 const Logo = styled.img`
   /* 
    */
@@ -92,7 +105,19 @@ const Logo = styled.img`
   position: absolute; */
 `
 
+const Footer = styled.div`
+  flex-direction: column;
+  bottom: 0;
+  position: absolute;
+  margin: 15px;
+  color: #fff;
+  /* width: 100px;
+  height: 100px; */
+`
+
 const Title = styled.h1`
+  /* top: 30%;
+  position: absolute; */
   /* top: 40%;
   position: absolute;
   left: 40%; */
