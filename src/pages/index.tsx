@@ -7,7 +7,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import logo from "../assets/logo.svg"
+// import logo from "../assets/logo.svg"
+import logo from "../assets/Ruyjfs.svg"
 
 export default () => (
   <>
@@ -45,8 +46,8 @@ export default () => (
           }}
         />
         <ContainerMiddle>
-          <Title className="App-logo-text">Ruyjfs</Title>
-          {/* <Logo src={logo} className="App-logo" alt="logo" /> */}
+          {/* <Title className="App-logo-text">Ruyjfs</Title> */}
+          <Logo src={logo} className="App-logo-text" alt="logo" />
 
           <Button to="/projects/religare">Religare</Button>
           <Button to="/projects/politikos">Politikos</Button>
