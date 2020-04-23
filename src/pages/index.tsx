@@ -49,8 +49,9 @@ export default () => (
           {/* <Title className="App-logo-text">Ruyjfs</Title> */}
           <Logo src={logo} className="App-logo-text" alt="logo" />
 
-          <Button to="/projects/religare">Religare</Button>
-          <Button to="/projects/politikos">Politikos</Button>
+          <Button to="/religare">Religare</Button>
+          <Button to="/j3scrum">j3scrum</Button>
+          <Button to="/politikos">Politikos</Button>
         </ContainerMiddle>
         <Footer>
           © {new Date().getFullYear()} ruyjfs.com | ruyferreira.com |

@@ -2,21 +2,18 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Religare" />
+    <SEO title="Politikos" />
     <Container>
       <ContainerMiddle>
-        <h1>Religare</h1>
+        <h1>Politikos</h1>
         <p>
-          O Religare é um aplicativo social para pessoas que gostariam de
-          compartilhar problemas pessoais de forma anônima, tento também um
-          diário secreto pessoal e um emocionometro, para ir acompanhando os
-          próprios sentimentos e os próprios dias. Podendo assim enquanto ajuda
-          outras pessoas ir também se auto-conhecendo e se auto-ajudando.
+          Politikos é uma forma de todos poder dar e saber a opinão sobre os
+          atuais políticos do país.
         </p>
         <Button to="/">Voltar</Button>
       </ContainerMiddle>
