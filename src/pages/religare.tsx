@@ -38,19 +38,12 @@ const SecondPage = () => (
           parte também.
         </p>
         <p>
-          Já disponível nas melhores lojas:{" "}
+          Acesse:{" "}
           <OutboundLink
-            href="https://apps.apple.com/us/app/religare-social/id1493537626?l=pt"
+            href="https://religareapp.com"
             target="_blank"
           >
-            Apple Store
-          </OutboundLink>{" "}
-          e{" "}
-          <OutboundLink
-            href="https://play.google.com/store/apps/details?id=com.religarebr"
-            target="_blank"
-          >
-            Google Play
+            www.religareapp.com
           </OutboundLink>
           .
         </p>
