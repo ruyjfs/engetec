@@ -50,6 +50,7 @@ export default () => (
           <Logo src={logo} className="App-logo-text" alt="logo" />
 
           <Button to="/religare">Religare</Button>
+          <Button to="/planus">Planus</Button>
           <Button to="/j3scrum">j3scrum</Button>
           <Button to="/politikos">Politikos</Button>
         </ContainerMiddle>

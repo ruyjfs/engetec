@@ -12,8 +12,8 @@ const SecondPage = () => (
       <ContainerMiddle>
         <h1>Politikos</h1>
         <p>
-          Politikos é uma forma de todos poder dar e saber a opinão sobre os
-          atuais políticos do país.
+          Em breve uma nova forma onde todos podem saber e dar a opinão sobre os
+          atuais políticos do país em tempo real.
         </p>
         <Button to="/">Voltar</Button>
       </ContainerMiddle>
